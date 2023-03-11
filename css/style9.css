@@ -1,0 +1,41 @@
+
+
+body {
+    background: url(../imgs/wood-gbd3ecf189_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 1% 20%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.portada {
+    background: url(../imgs/pizza-g62d65a0b7_640.jpg) no-repeat center;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 100px 20px black;
+}
+
+.contenido {
+    padding:2% 5%;
+    background-color: whitesmoke;
+    height: 300px;
+    box-shadow: 0 0 100px 20px black;
+    box-shadow:inset 0 0 5px rgba(12, 12, 12, 0.74);
+}
+
+#titulo {
+    font-size: 40px;
+    text-align: center;
+}
+
+#texto {
+    color: rgb(87, 86, 86);
+    font-size: 18px;
+}
+
+#a-link {
+    background-color: rgb(243, 38, 38);
+    color: white;
+    padding: 8px;
+    border-radius: 1px;
+}

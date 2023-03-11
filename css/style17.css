@@ -1,0 +1,153 @@
+@import url(/css/normalize.css);
+@import url(/css/fonts.css);
+/* FUENTES 
+--font-alboreto_cursive: 'Aboreto', cursive;
+--font-cairo_cursive: 'Cairo Play', cursive;
+--font-dmono: 'DM Mono', monospace;
+--font-dmsans: 'DM Sans', sans-serif;
+--font-firacode: 'Fira Code', monospace;
+--font-firasans: 'Fira Sans', sans-serif;
+--font-gloock: 'Gloock', serif;
+--font-ibmplex: 'IBM Plex Sans JP', sans-serif;
+--font-librebod: 'Libre Bodoni', serif;
+--font-notoserif: 'Noto Serif Thai', serif;
+--font-robotoflex: 'Roboto Flex', sans-serif;
+--font-sofiasans: 'Sofia Sans Semi Condensed', sans-serif;
+--font-splasg_cursive: 'Splash', cursive;
+--font-retrovt: 'VT323', monospace;
+*/
+body {
+  padding-top: 5%;
+  background-color: whitesmoke;
+}
+
+/* FLEX ROW WRAP ALL CENTERED */
+/*w=wrap c=center(align-items) 
+c=center(justufy-content) */
+.flexro_wcc {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: first baseline;
+  justify-content: center;
+}
+
+/* FLEX ROW NO-WRAP ALL CENTERED */
+/*n=no-wrap c=center(align-items) 
+c=center(justufy-content) */
+.flexro_nwcc {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FLEX COLUMN WRAP ALL CENTERED */
+/*n=no-wrap c=center(align-items) 
+c=center(justufy-content) */
+.flexco_nwcc {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.day {
+  word-wrap: break-word;
+  text-align: center;
+  width: 12%;
+  margin: 0.2%;
+}
+
+.name {
+  background-color: gray;
+  border-radius: 3px;
+  color: white;
+  width: 100%;
+  margin: 2% 0;
+  padding: 3% 0;
+}
+
+.day_item {
+  text-align: left;
+  width: auto;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  align-items: stretch;
+  justify-content: stretch;
+  display: flex;
+  height: 25px;
+}
+
+.day_item div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: smaller;
+}
+
+.day_item .hour {
+  background-color: gray;
+  color: white;
+  width: 75%;
+  font-size: 65%;
+  border-radius: 3px 0 0 3px;
+}
+
+.day_item .sala {
+  background-color: lightgrey;
+  width: 70%;
+  font-size: 65%;
+}
+
+.day_item .temp {
+  background: url(/imgs/sun-solid.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-color: rgb(255, 208, 0);
+  font-size: 65%;
+  border-radius: 0 3px 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+}
+
+.temp p {
+    margin-right: 25%;
+    margin-left: 0%;
+}
+
+.day_item:hover,
+.day_item:active {
+  box-shadow:  0px 0px 2px 1px rgb(255, 208, 0);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    .day {
+        word-wrap: break-word;
+        text-align: center;
+        width: 25%;
+        margin: 0.2%;
+      }
+}
+
+
+@media screen and (max-width: 520px) {
+    .day {
+        word-wrap: break-word;
+        text-align: center;
+        width: 80%;
+        margin: 0.2%;
+      }
+}

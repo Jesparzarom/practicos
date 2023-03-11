@@ -1,0 +1,29 @@
+
+body {
+    background: url("../imgs/flat-mountains.png") no-repeat center center fixed;
+    background-size: cover
+}
+
+
+.section {
+    padding: 50px 180px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.www {
+    font-weight: bold;
+}
+
+.lista {
+    list-style: disc outside;
+}
+
+
+.item::marker {
+    font-size: 24px;
+}
+
+.item span {
+    color:#4a87eb;
+    font-weight: bolder;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.main {
+  font-family: "roboto";
+  padding-top: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  color: rgba(52, 71, 248, 0.808);
+  margin-bottom: 25px;
+}
+
+.forecast {
+  width: 40%;
+  background: url(https://i.gifer.com/QINk.gif) no-repeat center/cover  rgba(0, 26, 255, 0.986);
+  padding: 10px 10px 10px 10px;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 20px rgba(255, 254, 254, 0.336),
+    0px 0px 20px rgba(0, 0, 0, 0.315);
+  }
+
+.day {
+  background-color: azure;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
+}
+.day p {
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-size: small;
+}
+
+.forecast :hover {
+  cursor:grabbing;
+  transition: all ease-out 0.250s;
+  color:white;
+}
+
+.lluvioso {
+  background: url(../imgs/clima.png) right/contain no-repeat
+    rgba(0, 255, 255, 0.712);
+}
+.lluvioso p {
+  color: rgb(41, 4, 179);
+}
+
+.nublado {
+  background: url(../imgs/dia-nublado.png) right/contain no-repeat
+    rgba(245, 241, 241, 0.493);
+}
+.nublado p {
+  color: rgb(94, 4, 179);
+}
+
+.soleado {
+  background: url(../imgs/sol.png) right/contain no-repeat
+    rgba(255, 196, 3, 0.644);
+}
+.soleado p {
+  color: rgb(252, 236, 169);
+}
+
+.footer {
+    color: slateblue;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+
+}

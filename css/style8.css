@@ -1,0 +1,75 @@
+.contenedor {
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+  color: #d6cece;
+}
+
+.seccion_1,
+.seccion_2,
+.seccion_3,
+.seccion_4 {
+  width: 100%;
+}
+
+.seccion_1 div,
+.seccion_2 div,
+.seccion_3 div,
+.seccion_4 div {
+  float: left;
+  width: 23%;
+  background: linear-gradient(325deg, #e5e2e2, #cecbcb, #afadad);
+  margin: 2% 5%;
+  padding: 20px 0;
+  color: gray;
+}
+
+
+/* ====OUTSET (POR FUERA DE LA CAJA)==== */
+.a {
+  box-shadow: -8px -8px gray;
+}
+
+.b {
+  box-shadow: -8px -8px 10px gray;
+}
+
+.c {
+  box-shadow: -8px -8px 0px 8px gray;
+}
+
+.d {
+  box-shadow: -8px -8px 10px 8px gray;
+}
+.e {
+  box-shadow: 0 0 10px 1px gray;
+}
+
+.f {
+  box-shadow: 0 0 8px 8px gray;
+}
+
+/* ===== INSET (DENTRO DE LA CAJA) ===== */
+.g {
+    box-shadow: inset -8px -8px gray;
+}
+
+.h {
+    box-shadow: inset -8px -8px 8px gray;
+}
+
+.i {
+    box-shadow: inset -8px -8px 0px 8px gray;
+}
+
+.j {
+    box-shadow: inset -8px -8px 8px 8px gray;
+}
+
+.k {
+    box-shadow: inset 0 0 10px 1px gray;
+}
+
+.l {
+    box-shadow: inset 0 0 8px 8px gray;
+}

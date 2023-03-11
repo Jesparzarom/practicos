@@ -1,0 +1,150 @@
+@import url(/css/normalize.css);
+@import url(fonts.css);
+/* FUENTES 
+--font-alboreto_cursive: 'Aboreto', cursive;
+--font-cairo_cursive: 'Cairo Play', cursive;
+--font-dmono: 'DM Mono', monospace;
+--font-dmsans: 'DM Sans', sans-serif;
+--font-firacode: 'Fira Code', monospace;
+--font-firasans: 'Fira Sans', sans-serif;
+--font-gloock: 'Gloock', serif;
+--font-ibmplex: 'IBM Plex Sans JP', sans-serif;
+--font-librebod: 'Libre Bodoni', serif;
+--font-notoserif: 'Noto Serif Thai', serif;
+--font-robotoflex: 'Roboto Flex', sans-serif;
+--font-sofiasans: 'Sofia Sans Semi Condensed', sans-serif;
+--font-splasg_cursive: 'Splash', cursive;
+--font-retrovt: 'VT323', monospace;
+*/
+body {
+    font-family: var(--font-librebod);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:start;
+    text-align: center;
+    height: 100vh;
+    padding: 5%;
+}
+
+.header {
+    width: 80%;
+}
+
+
+.header_title {
+    font-size: 25px;
+    color: #c01119;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.header_text {
+    font-size: 15px;
+    padding: 0 20%;
+    color: rgba(36, 36, 36, 0.829);
+}
+
+.main_container {
+    width: 80%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-section {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.589);
+    width: 30%;
+    height: 90%;
+    font-family: var(--font-notoserif);
+    text-align: left;
+}
+
+.card_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: center;
+}
+
+.card_title,
+.card-list {
+    margin-top: 0;
+}
+
+.card_title {
+    margin-left: 8%;
+    font-size: 120%;
+}
+
+.card-list {
+    font-size: 80%;
+    font-weight: lighter;
+    margin-left: 0;
+}
+
+
+.card1 {
+    background-color: #2a2d34;
+    color: white;
+}
+
+.card2 {
+    background-color: #f1c50e;
+}
+
+.card3{ 
+    background-color: #c01119;
+    color: white;
+}
+
+.img1 {
+    background: url(/imgs/pexels-andrea-piacquadio-866019.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    background: url(/imgs/pexels-andrea-piacquadio-917526.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    background: url(/imgs/pexels-andrea-piacquadio-903171.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+@media screen and (max-width: 712px){
+    .container-section {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.589);
+        width: 45%;
+        height: 50%;
+        font-family: var(--font-notoserif);
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .container-section {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.589);
+        width: 100%;
+        height: 50%;
+        font-family: var(--font-notoserif);
+        text-align: left;
+    }
+}

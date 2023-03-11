@@ -1,0 +1,83 @@
+@import url(/css/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Sans:wght@300;500;700&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,600&display=swap");
+
+:root {
+    --dmsans : 'DM Sans', sans-serif;
+    --firasans: 'Fira Sans', sans-serif;
+    --robotoflex: 'Roboto Flex', sans-serif;
+}
+
+body {
+  padding: 2% 5%;
+  font-family: var(--robotoflex);
+  font-weight: 100;
+}
+
+nav {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-self: center;
+}
+
+.nav h1 {
+  color: #00334b;
+  width: 100%;
+  text-align: center;
+  font-family: var(--dmsans);
+}
+
+.nav a {
+  width: 28%;
+  text-align: center;
+  margin: 2%;
+  background-color: #0188c7;
+  padding: 20px 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 
+  0px 5px 10px 0px #033c5396;
+}
+
+
+.nav a:hover,
+.nav a::after {
+  background-color: #00334b;
+  box-shadow:  0px 0px 0px 2px #00334b;
+  border-radius: 8px;
+  transition: all ease 250ms;
+
+}
+
+
+.nav span {
+  color:#0188c7;
+}
+
+footer p{
+  font-family:monospace;
+  text-align: center;
+  color: #00334b;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px){
+    .nav a {
+        width:98%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', 'Arial', 'Sans-Serif';
+    padding: 1% 5%;
+}
+
+.bkg {
+    background-color: #22afa9;
+    border-radius: 10px;
+    margin:5px 1px;
+}
+
+.container {
+    background-color: #cccccc;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.header {
+    padding: 25px;
+}
+
+.nav {
+    padding: 17px;
+    margin: 0;
+
+}
+
+.main {
+    margin: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-flow: row nowrap;
+}
+
+.aside,
+.section, 
+.nav2 {
+    padding-top: 20px;
+    height: 400px;
+}
+
+.aside {
+    width: 20%;
+
+}
+
+.section {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 54%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.section span {
+    height: 15%;
+}
+
+.section .article {
+    padding-top: 20px;
+    background-color: #778995;
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.nav2 {
+    width: 25%;
+
+
+}
+
+.footer {
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header:hover,
+.nav:hover,
+.aside:hover,
+.section:hover,
+.article:hover, 
+.nav2:hover,
+.footer:hover,
+.header:active,
+.nav:active,
+.aside:active,
+.section:active,
+.article:active, 
+.nav2:active,
+.footer:active {
+    box-shadow: 
+    inset 0px 0px 0px 3px #cccccc,
+    0px 0px 10px 4px rgba(0, 0, 0, 0.205);
+    color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+}

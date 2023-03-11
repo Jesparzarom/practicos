@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', 'Arial', 'Sans-Serif';
+    font-size: 16px;
+}
+
+body {
+    padding: 2% 3%;
+    background-color: rgb(231, 222, 222);
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+}
+
+.container-item {
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-around;
+    align-items:center;
+    text-align: center;
+    width: 43%;
+    height: 43vh;
+    box-shadow: 0 0 0 10px rgb(255, 255, 255);
+    background-blend-mode: lighten;
+}
+
+.seccion1 {
+    background: url(/imgs/sabinaserr.jpeg) no-repeat center;
+    background-size: cover;
+    background-color: #c5751ada;
+}
+
+.seccion2 {
+    background: url(/imgs/rafael.jpeg) no-repeat ;
+    background-size: cover;
+    background-color: #c5751ac7;
+}
+
+.seccion3 {
+    background: url(/imgs/mcenroe.jpeg) no-repeat ;
+    background-size: cover;
+    background-color: #c5751ac7;
+}
+
+.seccion4 {
+    background: url(/imgs/maxpark.jpeg) no-repeat center center ;
+    background-size: cover;
+    background-color: #c5751ac7;
+}
+
+.titulo,
+.btn {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    text-decoration: none;
+}
+
+.titulo {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.btn {
+    padding:13px;
+}
+
+.parrafo {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style:oblique;
+}
+
+
+.container-item:hover,
+.container-item:active {
+    box-shadow:  0 0 0 20px rgba(255, 140, 0, 0.541);
+    cursor: pointer;
+    transition: all ease-in-out 700ms;
+  }
+
+.btn:hover ,
+.btn:active,
+.btn::after {
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.623);
+    transition: all ease-in-out 400ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 715px){
+    .container-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 333px){
+    .container-item {
+        height: 30vh;
+    }
+}

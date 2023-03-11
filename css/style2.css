@@ -1,0 +1,27 @@
+* {
+  /*=====RESETEO DEL HTML=====*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  /*=====CONTENEDOR PRINCIPAL=====*/
+  padding: 40px;
+  width: auto;
+}
+
+section {
+  /*=====RECUADRO=====*/
+  background-color: #ac6ae5;
+  border: 5px dotted #340a5d;
+  width: 500px;
+  padding: 100px 50px;
+
+  /*=====TÍTULO=====*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: #340a5d;
+  text-align: center;
+}

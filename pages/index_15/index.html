@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style15.css">
+    <title>Ejercicio 15 - Index</title>
+</head>
+
+<body>
+    <main class="container">
+        <form class="form">
+            <div class="categories">
+                <h1>Heladería</h1>
+                <h3>Añade un producto:</h3>
+                <label for="frutas">Categorías:</label>
+                <select id="frutas" name="frutas">
+                    <option value="" disabled selected class="placeholder">
+                        Selecciona una categoría
+                    </option>
+                    <option value="Torta">Tortas</option>
+                    <option value="Helado">Helados</option>
+                    <option value="Smoothies">Smoothies</option>
+                </select>
+                <div class="input-text">
+                    <p><b>Sabores que ofrecemos:</b></p>
+                    <label id="sabor">Sabor:</label>
+                    <input type="text" name="sabor" id="" placeholder="sabor" class="intext">
+                    <label id="cantidad">Cantidad:</label>
+                    <input type="number" name="sabor" id="" placeholder="sabor" value="0" class="intext">
+                </div>
+                <div class="checkbox_hori">
+                    <input type="radio" name="tamaño" id="pequeño" aria-checked="none">
+                    <label for="">Pequeño (2)</label>
+                    <input type="radio" name="tamaño" id="mediano">
+                    <label for="">Mediano (5)</label>
+                    <input type="radio" name="tamaño" id="grande">
+                    <label for="">Grande (7)</label>
+                </div>
+                <p class="complementos"><b>Complementos:</b></p>
+                <ul class="checklist">
+                    <li>
+                        <input type="checkbox" id="mani" name="opcion">
+                        <label>Maní</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="chocochispas" name="opcion">
+                        <label>Chispas de chocolate</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="colorchispas" name="opcion">
+                        <label>Chispas de colores</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="condensada" name="opcion">
+                        <label>Leche condensada</label>
+                    </li>
+                </ul>
+            </div>
+            <a href="resume.html" class="btn enviar">ENVIAR</a>
+            <a href="" class="btn borrar">BORRAR</a>
+        </form>
+    </main>
+</body>
+
+</html>

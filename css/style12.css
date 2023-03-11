@@ -1,0 +1,32 @@
+@import url(/css/normalize.css);
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2% 5%;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.aside {
+    width: 25%;
+    margin-right:20px;
+}
+
+.section {
+    width: 70%;
+}
+
+.section_article-cols {
+    display: flex;
+}
+
+.section_article-text--col {
+    width: 33%;
+    margin: 10px;
+    flex-flow: row nowrap;
+}

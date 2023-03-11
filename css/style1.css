@@ -1,0 +1,41 @@
+.section {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left:15px ;
+  width: 50%;
+}
+
+.lista {
+  font-weight: bolder;
+}
+
+.lista .uno {
+  margin-left: -2px;
+  font-size: 17px;
+  color: blue;
+}
+
+.lista .dos {
+  margin-left: -5px;
+  padding-left: 2px;
+  font-size: 18px;
+}
+
+.lista .tres {
+  margin-left: -10px;
+  padding-left: 6px;
+  font-size: 23px;
+}
+
+.lista .cuatro {
+  margin-left: -15px;
+  padding-left: 11px;
+  font-size: 28px;
+}
+
+.lista .cinco {
+  margin-left: -20px;
+  padding-left: 16px;
+  font-size: 33px;
+  color:blue
+}
+

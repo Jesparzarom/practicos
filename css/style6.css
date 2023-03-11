@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.sombras {
+    padding: 20px 130px;
+}
+
+.sombras-1 {
+  color: black;
+  text-shadow: 0px 3px #00000028;
+}
+
+.sombras-2 {
+  color: white;
+  text-shadow: 0px 0px 6px #b31a12;
+}
+
+.sombras-3 {
+  text-shadow: 
+  -4px -5px 2px #f3be2b60,
+  0px 10px 5px #9495ec, 
+  4px -8px 5px #7ee79f, 
+  -5px -9px 5px #f08577;
+}
+
+.sombras-4 {
+    background-color: #dddddd;
+    color: #f6eeeb;
+    text-shadow: 
+    -2px -1px 1px black,
+    2px 1px 1px black;
+}
+
+.sombras-5 {
+    background-color: #999999;
+    color: #999999;
+    text-shadow: 
+    -3px -1px 2px #ffffff,
+    1px 1px 3px #000000;
+}
+
+.sombras-6 {
+    background-color: #cfcfcf;
+    color: #cfcfcf;
+    text-shadow: 
+    1px 2px 2px #ffffff,
+    -1px -2px 2px #000000;
+}
