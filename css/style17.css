@@ -1,5 +1,5 @@
-@import url(/css/normalize.css);
-@import url(/css/fonts.css);
+@import url(./normalize.css);
+@import url(./fonts.css);
 /* FUENTES 
 --font-alboreto_cursive: 'Aboreto', cursive;
 --font-cairo_cursive: 'Cairo Play', cursive;
@@ -101,7 +101,7 @@ c=center(justufy-content) */
 }
 
 .day_item .temp {
-  background: url(/imgs/sun-solid.svg);
+  background: url(../imgs/sun-solid.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

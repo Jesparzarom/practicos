@@ -1,4 +1,4 @@
-@import url(/css/normalize.css);
+@import url(./normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Sans:wght@300;500;700&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,600&display=swap");
 
 :root {
@@ -44,7 +44,7 @@ body {
 
 
 .img {
-    background-image: url(/imgs/pexelsfitness.jpg);
+    background-image: url(../imgs/pexelsfitness.jpg);
     background-size: cover;
 }
 

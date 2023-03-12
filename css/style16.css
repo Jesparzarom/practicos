@@ -1,5 +1,5 @@
-@import url(/css/normalize.css);
-@import url(fonts.css);
+@import url(./css/normalize.css);
+@import url(./fonts.css);
 /* FUENTES 
 --font-alboreto_cursive: 'Aboreto', cursive;
 --font-cairo_cursive: 'Cairo Play', cursive;
@@ -108,21 +108,21 @@ body {
 }
 
 .img1 {
-    background: url(/imgs/pexels-andrea-piacquadio-866019.jpg);
+    background: url(../imgs/pexels-andrea-piacquadio-866019.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img2 {
-    background: url(/imgs/pexels-andrea-piacquadio-917526.jpg);
+    background: url(../imgs/pexels-andrea-piacquadio-917526.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img3 {
-    background: url(/imgs/pexels-andrea-piacquadio-903171.jpg);
+    background: url(../imgs/pexels-andrea-piacquadio-903171.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  

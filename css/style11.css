@@ -37,25 +37,25 @@ body {
 }
 
 .seccion1 {
-    background: url(/imgs/sabinaserr.jpeg) no-repeat center;
+    background: url(../imgs/sabinaserr.jpeg) no-repeat center;
     background-size: cover;
     background-color: #c5751ada;
 }
 
 .seccion2 {
-    background: url(/imgs/rafael.jpeg) no-repeat ;
+    background: url(../imgs/rafael.jpeg) no-repeat ;
     background-size: cover;
     background-color: #c5751ac7;
 }
 
 .seccion3 {
-    background: url(/imgs/mcenroe.jpeg) no-repeat ;
+    background: url(../imgs/mcenroe.jpeg) no-repeat ;
     background-size: cover;
     background-color: #c5751ac7;
 }
 
 .seccion4 {
-    background: url(/imgs/maxpark.jpeg) no-repeat center center ;
+    background: url(../imgs/maxpark.jpeg) no-repeat center center ;
     background-size: cover;
     background-color: #c5751ac7;
 }
