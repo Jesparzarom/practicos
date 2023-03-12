@@ -2,7 +2,10 @@
 
 
 body {
-    background-color: #d8da3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 
@@ -13,6 +16,8 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
+    height: 70%;
+    width: 70%;
 }
 
 .container_nav {
@@ -39,7 +44,7 @@ body {
     flex-flow: column nowrap;
     align-items:flex-start;
     justify-content:center;
-    padding: 2%;
+    padding: 2% 5% 2% 2%;
     color: #822978;
     font-size: 1.3rem;
 }
